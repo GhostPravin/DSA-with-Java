@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DoWhileLoop {
     public static void main(String[] args) {
-/*
+
        // banking application
         int i = 1;
         int pin = 1234;
@@ -29,8 +29,16 @@ public class DoWhileLoop {
            {
                System.out.print("Enter the Deposit amount:");
                double deposit = sc.nextDouble();
-               balance += deposit;
-               System.out.println("Deposit Successful....Garibi hatava");
+               if (deposit > 0)
+               {
+                   balance += deposit;
+                   System.out.println("Deposit '" + deposit +"' Successful.... Garibi hatava....");
+               }
+               else
+               {
+                   System.out.println("Invalid deposit amount");
+               }
+
            }
            else if (Choice == 2)
            {
@@ -40,8 +48,23 @@ public class DoWhileLoop {
                {
                    System.out.println("Enter the withdraw amount");
                    double withdraw = sc.nextDouble();
-                   balance -= withdraw;
-                   System.out.println("Withdraw Successful....Garib zalas");
+                   if(withdraw > 0)
+                   {
+                       if(balance >= withdraw)
+                       {
+                           balance -= withdraw;
+                           System.out.println("Withdraw '"+ withdraw+"' Successful.... Garib vadhat ahe");
+                       }
+                       else
+                       {
+                           System.out.println("Inefficient balance, ye Garib....");
+                       }
+                   }
+                   else
+                   {
+                       System.out.println("Invalid Withdraw amount");
+                   }
+
                }
                else
                {
@@ -113,7 +136,7 @@ public class DoWhileLoop {
            }
            else if (Choice == 4)
            {
-               System.out.println("Byeeeeeeeeeeee......................");
+               System.out.println("Byeeeeeeeeeeee.........Garibbbbbbbbbbbb.............");
                break;
            }
            else
@@ -121,7 +144,7 @@ public class DoWhileLoop {
                System.out.println("Enter Number between 1 to 4...bye");
            }
        }
-       while (true);*/
+       while (true);
 
 
 
