@@ -20,11 +20,11 @@ public class Main {
 
 
         //char symbols
-       /* char a = 2400;
-        for (int i = 2300; i <= a; i++ )
+        char a = 2;
+        for (int i = 20; i <= a; i++ )
         {
             System.out.println((char)i);
-        }*/
+        }
 
 
         // My Name In Marathi
