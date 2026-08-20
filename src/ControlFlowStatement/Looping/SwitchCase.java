@@ -66,13 +66,6 @@ public class SwitchCase {
 
 
 
-
-
-
-
-
-
-
        /* //calculator
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number:");
