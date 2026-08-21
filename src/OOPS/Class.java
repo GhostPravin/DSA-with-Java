@@ -67,11 +67,11 @@ public class Class {
          tushar.address = sc1.nextLine();
 
          System.out.println("Tushar Data:");
-         System.out.println("ID : "+tushar.id);
-         System.out.println("Name : "+tushar.name);
-         System.out.println("Age : "+tushar.age);
-         System.out.println("mobile :"+tushar.mobileNo);
-         System.out.println("Address: "+tushar.address);
+         System.out.println("ID : "+ tushar.id);
+         System.out.println("Name : "+ tushar.name);
+         System.out.println("Age : "+ tushar.age);
+         System.out.println("mobile :"+ tushar.mobileNo);
+         System.out.println("Address: "+ tushar.address);
 
     }
 
