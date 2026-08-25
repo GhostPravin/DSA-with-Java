@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Constructor;
 //user info
 public class Constructor {
     String username;
@@ -24,9 +24,14 @@ public class Constructor {
 
     public static void main(String[] args) {
         Constructor c1 = new Constructor();
-        c1.setUsername("Ram", "1233", "pravin@gamail");
+        c1.setUsername("Ram", "1233", "pravin@gamail.com");
 //        Constructor c2 = new Constructor();
         c1.display();
+        System.out.println("====================================================");
+
+        Constructor c2 = new Constructor();
+        c2.setUsername("Sham","1234","pravinpawar2114@gmail.com");
+        c2.display();
     }
 
 }
