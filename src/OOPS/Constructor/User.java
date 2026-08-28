@@ -18,7 +18,7 @@ public class User {
         this.password = password;
         this.email = email;
         System.out.println("Para");
-        //display();
+        display();
     }
 
    /* void setUser(String u,String p, String e)
